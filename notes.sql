@@ -1,3 +1,6 @@
+https://sqlectron.github.io/ 
+
+
 SQL
   - SQL or Structured Query Language 
   - we use to talk to databases.
@@ -106,13 +109,13 @@ INDEX (Links to an external site.)
   - Use to create and retrieve data from 
   the database very quickly
 
-psql 
+-- psql 
 -- Comment 
-CREATE DATABASE dealership_spring21;
+-- CREATE DATABASE dealership_spring21;
 
-\c dealership_winter20;
+-- \c dealership_winter20;
 
-CREATE DATABASE dealership_sum21;
+CREATE DATABASE dealership_fall21;
 
 CREATE TABLE cars (
     id SERIAL PRIMARY KEY,
@@ -125,7 +128,7 @@ CREATE TABLE cars (
 );
 
 INSERT INTO cars (make, model, color, year, mileage)
-VALUES ('Toyota', 'Rav 4', 'grey', 2018, 38000 )
+VALUES ('Jeep', 'Wrangler', 'Blue', 2005, 123000);
 
 INSERT INTO cars (make, model, color, year, mileage, runs)
 VALUES ('Jeep', 'Cherokee', 'Black', 2011, 332131, DEFAULT),
